@@ -64,12 +64,13 @@
          url('../fonts/barlow-v5-latin-700.svg#Barlow') format('svg'); /* Legacy iOS */
 }
 @font-face {
-    font-family: 'Barlow';
-    font-style: normal;
+    font-family: 'Fraunces 9pt';
+    src: url('../fonts/Fraunces-9ptBlack.woff2') format('woff2'),
+        url('../fonts/fraunces-9pt-black.ttf') format('truetype'),
+        url('../fonts/Fraunces-9ptBlack.woff') format('woff');
     font-weight: 900;
-    src: url('../fonts/fraunces-9pt-black.ttf');
-    src: local(''),
-         url('../fonts/fraunces-9pt-black.ttf') format('truetype'),
+    font-style: normal;
+    font-display: swap;
 }
 *, 
 *::after,
@@ -79,6 +80,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Fraunces 9pt', serif;
 }
 img {
     vertical-align: middle;
@@ -97,3 +99,4 @@ img {
     white-space: nowrap;
     width: 1px;
 }
+
