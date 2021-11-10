@@ -100,6 +100,7 @@ img {
     white-space: nowrap;
     width: 1px;
 }
+/* HEADER */
 header {
     padding-top: 44px;
     padding-bottom: 44px;
@@ -109,6 +110,10 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+#logo {
+    display: inline-block;
+}
+/* HEADER LIST */
 .header-list {
     margin: 0;
     padding: 0;
@@ -131,4 +136,87 @@ header {
 }
 .header-item-link:active {
     color: #333D4B;
+}
+/* MAIN */
+/* HERO */
+.hero-container {
+    width: 1280px;
+    background-image: url('../img/background-hero-top.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: 5px;
+    padding-top: 117px;
+    padding-bottom: 116px;
+    padding-left: 85px;
+}
+.hero-left {
+    width: 493px;
+}
+.hero-left-heading {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 32px;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+.hero-left-disc {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 56px;
+    font-family: 'Barlow';
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.site-button {
+    padding: 15px 31px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background-color: #0E8784;
+    border-radius: 5px;
+    border: transparent;
+    cursor: pointer;
+}
+.site-button:active {
+    background-color: #66D2CF;
+}
+/* COLLECTION */
+.collection {
+    padding-top: 136px;
+    padding-bottom: 200px;
+}
+.collection-container {
+    width: 1151px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.collection-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.collection-item + .collection-item {
+    margin-left: 30px;
+}
+.collection-item-img {
+    margin-bottom: 72px;
+}
+.collection-item-heading {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+.collection-item-disc {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow';
+    text-align: center;
 }
