@@ -308,3 +308,114 @@ header {
     color: #FEFCF7;
     line-height: 26px;
 }
+/* HOW IT WORK */
+.how-works {
+    padding-top: 351px;
+}
+.how-works-container {
+    width: 1085px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.how-works-heading {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+.how-works-main {
+    margin-bottom: 64px;
+}
+.how-works-main-img {
+    margin-bottom: 67px;
+}
+.how-works-main-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.how-works-main-item {
+    width: 285px;
+}
+.how-works-main-item-top-heading {
+    margin: 0;
+    padding: 0; 
+    margin-bottom: 38px;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+.how-works-main-item-main-hadding {
+    margin: 0;
+    padding: 0;
+    width: 255px;
+    margin-bottom: 42px;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+.how-works-main-item-disc {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow';
+    line-height: 26px;
+    color: #333D4B;
+}
+/* FOOTER */
+footer {
+    width: 1280px;
+    padding: 47px 85px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: #2C343E;
+    border-radius: 5px;
+    margin-bottom: 135px;
+}
+.container-footer {
+    width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo-link {
+    display: inline-block;
+    margin-right: 103px;
+}
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+.footer-left-list {
+    list-style: none;
+    display: flex;
+}
+.footer-left-item + .footer-left-item {
+    margin-left: 32px;
+}
+.footer-left-item-link {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Barlow';
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+.footer-left-item-link:active {
+    color: #FEFCF7;
+}
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+.footer-right-img:active {
+    background-color: #FDD6BA;
+}
