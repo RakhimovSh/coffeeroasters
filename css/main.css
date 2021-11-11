@@ -188,6 +188,10 @@ header {
 .collection {
     padding-top: 136px;
     padding-bottom: 200px;
+    background-image: url('../img/our-collection.png');
+    background-repeat: no-repeat;
+    background-size: 1111px 196px;
+    background-position: center top 25px;
 }
 .collection-container {
     width: 1151px;
@@ -219,4 +223,88 @@ header {
     padding: 0;
     font-family: 'Barlow';
     text-align: center;
+}
+/* WHY CHOOSE */
+.why-choose-container {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #293039;
+    border-radius: 5px;
+
+}
+.why-choose-top {
+    width: 540px;
+    padding-top: 100px;
+    padding-bottom: 317px;
+    display: flex;
+    flex-direction: column;
+}
+.why-choose-heading {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+}
+.why-choose-disc {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow';
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.why-choose-list {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: -151px;
+    list-style: none;
+    display: flex;
+    width: 1110px;
+    justify-content: space-between;
+}
+.why-choose-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    padding-top: 72px;
+    padding-bottom: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+    background-color: #0E8784;
+    border-radius: 5px;
+}
+.why-choose-item-img {
+    margin-bottom: 56px;
+}
+.why-choose-item-heading {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+}
+.why-choose-item-disc {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow';
+    text-align: center;
+    color: #FEFCF7;
+    line-height: 26px;
 }
