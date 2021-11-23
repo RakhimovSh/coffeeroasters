@@ -1,0 +1,30 @@
+.plan-container {
+    background-image: url('../../img/plan-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: 1320px 450px;
+    border-radius: 5px;
+}
+.plan-hero-left {
+    width: 600px;
+    padding-left: 85px;
+    padding-top: 134px;
+    padding-bottom: 134px;
+}
+.plan-hero-left__title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}.plan-hero-left__disc {
+    margin: 0;
+    padding: 0;
+    width: 445px;
+    font-family: 'Barlow';
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
