@@ -1,0 +1,50 @@
+.plan-how-it-works {
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+.plan-works-container {
+    background-color: #2C343E;
+    border-radius: 5px;
+}
+.plan-works-content {
+    padding: 100px 150px 99px 85px;
+    &__list {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        padding-top: 67px;
+        list-style: none;
+    }
+    &__item {
+        width: 285px;
+    }
+    &__item + &__item {
+        margin-left: 95px;
+    }
+    &__heading {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 38px;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+    }
+    &__title {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 42px;
+        width: 255px;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #FEFCF7;
+    }
+    &__disc {
+        margin: 0;
+        padding: 0;
+        font-family: 'Barlow';
+        line-height: 26px;
+        color: #FEFCF7;
+    }
+}
