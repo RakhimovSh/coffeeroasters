@@ -43,6 +43,7 @@ header {
     width: 1280px;
     background-image: url('../img/background-hero-top.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     background-position-x: center;
     border-radius: 5px;
     padding-top: 117px;
@@ -213,7 +214,8 @@ header {
     padding-top: 351px;
 }
 .how-works-container {
-    width: 1085px;
+    max-width: 1085px;
+    width: 100%;
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -239,7 +241,7 @@ header {
     justify-content: space-between;
 }
 .how-works-main-item {
-    width: 285px;
+    max-width: 285px;
 }
 .how-works-main-item-top-heading {
     margin: 0;
@@ -265,60 +267,7 @@ header {
     line-height: 26px;
     color: #333D4B;
 }
-/* FOOTER */
-footer {
-    width: 1280px;
-    padding: 47px 85px;
-    margin: 0 auto;
-    margin-top: 200px;
-    background-color: #2C343E;
-    border-radius: 5px;
-    margin-bottom: 135px;
-}
-.container-footer {
-    width: 1150px;
-    padding: 0 20px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.footer-logo-link {
-    display: inline-block;
-    margin-right: 103px;
-}
-.footer-left {
-    display: flex;
-    align-items: center;
-}
-.footer-left-list {
-    list-style: none;
-    display: flex;
-}
-.footer-left-item + .footer-left-item {
-    margin-left: 32px;
-}
-.footer-left-item-link {
-    display: inline-block;
-    text-decoration: none;
-    font-family: 'Barlow';
-    font-size: 12px;
-    line-height: 15px;
-    letter-spacing: 0.923077px;
-    text-transform: uppercase;
-    color: #83888F;
-}
-.footer-left-item-link:active {
-    color: #FEFCF7;
-}
-.footer-right {
-    display: flex;
-    justify-content: space-between;
-    width: 120px;
-}
-.footer-right-img:active {
-    background-color: #FDD6BA;
-}
+
 
 /* ABOUT US */
 /* The header part is copied from index.html */
@@ -483,4 +432,116 @@ footer {
 .our-headquarters-item-heading-right::before {
     content: url('../img/australia.svg');
     margin-bottom: 48px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    .site-top {
+        padding: 0 20px;
+    }
+    .hero-container {
+        padding: 104px 0px 104px 58px;
+        background-image: url('../img/background-hero-top-tablet.jpg');
+        background-size: cover;
+        border-radius: 5px;
+         
+    }
+    .hero-left-heading {
+        margin-bottom: 24px;
+        width: 329px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .hero-left-disc {
+        margin-bottom: 40px;
+        width: 398px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .collection {
+        background-size: 689px 118px;
+        background-position-y: 6%;
+    }
+    .collection-container {
+        position: relative;
+        left: 8%;
+    }
+    .collection-list {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        max-width: 573px;
+    }
+    .collection-item {
+        display: flex;
+        align-items: center;
+        max-width: 573px;
+    }
+    .collection-item + .collection-item {
+        margin-top: 32px;
+    }
+    .collection-item-bottom {
+        margin: 0;
+        padding: 0;
+        width: 282px;
+    }
+    .collection-item-img {
+        margin: 0;
+        padding: 0;
+    }
+    .why-choose-container {
+        max-width: 688px;
+    }
+    .why-choose-list {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+    .why-choose-item {
+        margin: 0;
+        max-width: 573px;
+        width: 100%;
+        padding: 41px 48px 41px 78px;
+        position: relative;
+        flex-direction: row;
+        right: -270px;
+        top: 220px;
+    }
+    .why-choose-item + .why-choose-item {
+        margin-top: 24px;
+    }
+    .how-works {
+        padding-top: 434px;
+    }
+    .how-works-container {
+        background-image: url('../img/divider-tablet.png');
+        background-repeat: no-repeat;
+        background-position: left 10%;
+    }
+    .how-works-main-img {
+        display: none;
+    }
+    .how-works-main-item {
+        max-width: 223px;
+        width: 100%;
+    }
+    .how-works-main-item-top-heading {
+        font-size: 72px;
+        line-height: 72px;
+    }
+    .how-works-main-item-main-hadding {
+        max-width: 223px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .how-works-main-item-disc {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    
 }
